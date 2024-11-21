@@ -25,4 +25,9 @@ spec:
                 valueFrom:
                   configMapKeyRef:
                     name: mysql-config
-                    key: MYSQL_DATABASE              
+                    key: MYSQL_DATABASE
+              - name: MYSQL_ROOT_PASSWORD
+                valueFrom:
+                  secretKeyRef:
+                    name: mysql-secret
+                    key:  password              

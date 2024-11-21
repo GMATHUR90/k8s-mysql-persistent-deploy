@@ -6,5 +6,5 @@ metadata:
   labels:
     app: todo
 data:
-  MYSQL_DB: "todo-db"
+  MYSQL_DATABASE: "todo-db"
 
