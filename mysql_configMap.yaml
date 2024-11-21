@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mysql-config
+  namespace: mysql
+  labels:
+    app: todo
+data:
+  MYSQL_DB: "todo-db"
+
