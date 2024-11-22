@@ -7,7 +7,7 @@ A Kubernetes-based deployment of MySQL, leveraging ConfigMaps, Secrets, and Pers
 - **Deployment Steps**
 - **Accessing the MySQL Database**
 - **Directory Structure**
-- **Screenshots**
+- **Verify**
 
 ## Overview
 The setup includes:
