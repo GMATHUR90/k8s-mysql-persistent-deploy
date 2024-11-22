@@ -72,3 +72,14 @@ k8s-mysql-persistent-deploy-main/
 ├── mysql_deployment.yaml           # MySQL Deployment manifest
 ├── images/                         # Screenshots or diagrams
 ```
+## Verify
+### On Master Node:
+![mysql_with_k8s_1.png](images/mysql_with_k8s_1.png)
+
+### On Worker Node:
+![mysql_with_k8s_2.png](images/mysql_with_k8s_2.png)
+
+![mysql_with_k8s_3.png](images/mysql_with_k8s_3.png)
+
+![mysql_with_k8s_4.png](images/mysql_with_k8s_4.png)
+
